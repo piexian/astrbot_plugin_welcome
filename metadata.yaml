@@ -1,0 +1,6 @@
+name: welcome
+author: piexian
+description: 入群欢迎插件，自动艾特新成员并发送自定义消息（支持文本和本地图片，可在控制台修改配置）
+version: 1.0
+repo: https://github.com/你的用户名/astrbot-plugin-welcome
+platforms: [aiocqhttp]
