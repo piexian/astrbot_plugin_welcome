@@ -1,0 +1,2 @@
+# astrbot_plugin_welcome
+AstrBot入群欢迎插件
