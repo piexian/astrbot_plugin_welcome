@@ -9,7 +9,7 @@ import os
 @register(
     "welcome", "piexian", 
     "新成员入群时艾特他并自动发送欢迎消息（支持文本、图片）", 
-    "1.1.1", "https://github.com/piexian/astrbot_plugin_welcome"
+    "1.1.2", "https://github.com/piexian/astrbot_plugin_welcome"
 )
 class WelcomePlugin(Star):
     def __init__(self, context: Context, config: AstrBotConfig):
