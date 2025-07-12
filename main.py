@@ -1,7 +1,7 @@
 from astrbot.api.event import filter, AstrMessageEvent
 from astrbot.api.star import Context, Star, register
 from astrbot.api import logger, AstrBotConfig
-from astrbot.api.message_chain import MessageChain  # 引入消息链类
+from astrbot.api.event import MessageChain
 import astrbot.api.message_components as Comp
 from astrbot.core.star import StarTools
 import os
