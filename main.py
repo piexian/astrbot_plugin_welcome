@@ -29,9 +29,7 @@ class WelcomePlugin(Star):
             new_member_id = self._extract_new_member_id(event)
             if not new_member_id:
                 logger.warning("未识别到新成员ID")
-                return
-            
-            # 使用 MessageEventResult 构建消息
+                return           
             result = self._build_message_result(event, new_member_id)
             yield result
             logger.info(f"已发送欢迎消息给新成员：{new_member_id}")
